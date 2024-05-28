@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    position:relative;
+
+}
+
+nav{
+    background-color:darkgrey
+}
+
+.navbar{
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1.3rem 0;
+
+}
+
+#search-button{
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.obg-width{
+    width: 1200px;
+    margin:auto;
+}
+
+#Blog-container{
+    padding:3rem 0;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5px;
+
+}
+.container{
+    width: 280px;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+
+    
+}
+
+.container img{
+    width:100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
